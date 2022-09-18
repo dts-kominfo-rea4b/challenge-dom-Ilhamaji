@@ -11,8 +11,8 @@
       <!-- TODO: Buatlah sebuah header dengan id todo-title -->
       <h1 id="todo-title">Todo List</h1>
       <!-- TODO: Buatlah sebuah subtitle dengan id todo-subtitle -->
-      <subhead id="todo-subtitle">Subtitle</subhead>
-
+      <subhead id="todo-subtitle">Input your activity</subhead>
+      <br />
       <!-- Section: input -->
       <!-- TODO: Buatlah sebuah input bertipe text dengan id todo-input -->
       <input type="text" id="todo-input" />
@@ -22,6 +22,59 @@
       <!-- TODO: Buatlah sebuah <ul> dengan id todo-output -->
       <ul id="todo-output"></ul>
     </div>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(174, 0, 255);
+      }
+      #app {
+        margin: auto;
+        text-align: center;
+        background-color: white;
+        width: 30vw;
+        padding-bottom: 30px;
+        border-radius: 20px;
+      }
+      #todo-title {
+        border-start-start-radius: 20px;
+        border-start-end-radius: 20px;
+        margin-top: 20px;
+        padding-top: 20px;
+        background-color: white;
+      }
+      #todo-subtitle {
+        background-color: white;
+      }
+      #todo-input {
+        margin-top: 20px;
+        background-color: white;
+        padding: 5px 10px;
+        border: gray 1px solid;
+        border-radius: 20px;
+      }
+      #todo-input:hover {
+        border: black 1px solid;
+      }
+      #todo-submit {
+        padding: 5px 10px;
+        background-color: white;
+        border-radius: 20px;
+        transition: 0.2s;
+      }
+      #todo-submit:hover {
+        cursor: pointer;
+        background-color: black;
+        color: white;
+      }
+      #todo-output,
+      li {
+        margin: auto;
+        background-color: white;
+        width: 20vw;
+      }
+    </style>
 
     <!-- ! Untuk tantangan ini, script jangan diubah ke external js yah ! -->
     <script>
